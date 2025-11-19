@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browse albums, singles, and music releases">
+    <title>Music - Musician Website</title>
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+    <link rel="alternate icon" href="assets/images/favicon.svg">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">MUSICIAN</div>
+            <button class="mobile-menu-toggle">☰</button>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="home2.html">Home 2</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="music.html">Music</a></li>
+                <li><a href="videos.html">Videos</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Music Collection</h1>
+            <p>Explore albums, singles, and exclusive releases</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Featured Album -->
+        <section class="section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Latest Release</h2>
+                </div>
+                <div class="about-content">
+                    <div>
+                        <img src="https://picsum.photos/600/600?random=40" alt="Featured Album" class="about-image">
+                    </div>
+                    <div>
+                        <h2>New Album Title</h2>
+                        <p class="about-text">
+                            The latest album represents a new chapter in the musical journey. Featuring 
+                            a collection of tracks that blend various genres and styles, this release 
+                            showcases artistic growth and creative exploration.
+                        </p>
+                        <p class="about-text">
+                            <strong>Release Date:</strong> December 2024<br>
+                            <strong>Genre:</strong> Rock, Alternative<br>
+                            <strong>Tracks:</strong> 12 Songs
+                        </p>
+                        <div style="display: flex; gap: 1rem; margin-top: 2rem; flex-wrap: wrap;">
+                            <a href="#" class="btn btn-primary">Stream Now</a>
+                            <a href="#" class="btn">Buy Album</a>
+                            <a href="#" class="btn">Download</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- All Albums -->
+        <section class="section" style="background-color: var(--bg-light);">
+            <div class="container">
+                <div class="section-title">
+                    <h2>All Albums</h2>
+                </div>
+                <div class="music-grid">
+                    <div class="album-card">
+                        <img src="https://picsum.photos/300/300?random=?vinyl,music,record" alt="Album 1" class="album-cover">
+                        <h3>Album Title One</h3>
+                        <p>2024</p>
+                        <p style="color: var(--text-light); font-size: 0.875rem;">12 Tracks</p>
+                        <a href="#" class="btn">Listen</a>
+                    </div>
+                    <div class="album-card">
+                        <img src="https://picsum.photos/300/300?random=?music,album,vinyl" alt="Album 2" class="album-cover">
+                        <h3>Album Title Two</h3>
+                        <p>2023</p>
+                        <p style="color: var(--text-light); font-size: 0.875rem;">10 Tracks</p>
+                        <a href="#" class="btn">Listen</a>
+                    </div>
+                    <div class="album-card">
+                        <img src="https://picsum.photos/300/300?random=?record,music,vinyl" alt="Album 3" class="album-cover">
+                        <h3>Album Title Three</h3>
+                        <p>2022</p>
+                        <p style="color: var(--text-light); font-size: 0.875rem;">14 Tracks</p>
+                        <a href="#" class="btn">Listen</a>
+                    </div>
+                    <div class="album-card">
+                        <img src="https://picsum.photos/300/300?random=?music,vinyl,album" alt="Album 4" class="album-cover">
+                        <h3>Album Title Four</h3>
+                        <p>2021</p>
+                        <p style="color: var(--text-light); font-size: 0.875rem;">11 Tracks</p>
+                        <a href="#" class="btn">Listen</a>
+                    </div>
+                    <div class="album-card">
+                        <img src="https://picsum.photos/300/300?random=?album,record,music" alt="Album 5" class="album-cover">
+                        <h3>Album Title Five</h3>
+                        <p>2020</p>
+                        <p style="color: var(--text-light); font-size: 0.875rem;">13 Tracks</p>
+                        <a href="#" class="btn">Listen</a>
+                    </div>
+                    <div class="album-card">
+                        <img src="https://picsum.photos/300/300?random=?vinyl,album,record" alt="Album 6" class="album-cover">
+                        <h3>Album Title Six</h3>
+                        <p>2019</p>
+                        <p style="color: var(--text-light); font-size: 0.875rem;">15 Tracks</p>
+                        <a href="#" class="btn">Listen</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Singles -->
+        <section class="section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Latest Singles</h2>
+                </div>
+                <div class="grid grid-3">
+                    <div class="card">
+                        <img src="https://picsum.photos/400/250?random=?music,guitar,instrument" alt="Single 1" class="card-img">
+                        <div class="card-body">
+                            <h3 class="card-title">Single Title One</h3>
+                            <p class="card-text">Released: December 2024</p>
+                            <a href="#" class="btn">Play</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="https://picsum.photos/400/250?random=?music,piano,keys" alt="Single 2" class="card-img">
+                        <div class="card-body">
+                            <h3 class="card-title">Single Title Two</h3>
+                            <p class="card-text">Released: November 2024</p>
+                            <a href="#" class="btn">Play</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="https://picsum.photos/400/250?random=?music,microphone,singer" alt="Single 3" class="card-img">
+                        <div class="card-body">
+                            <h3 class="card-title">Single Title Three</h3>
+                            <p class="card-text">Released: October 2024</p>
+                            <a href="#" class="btn">Play</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Streaming Platforms -->
+        <section class="section" style="background-color: var(--bg-light);">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Stream on Your Favorite Platform</h2>
+                </div>
+                <div class="grid grid-4" style="text-align: center;">
+                    <div>
+                        <img src="https://picsum.photos/150/150?random=?music,streaming,spotify" alt="Spotify" style="width: 150px; height: 150px; object-fit: contain; margin: 0 auto;">
+                        <h4 style="margin-top: 1rem;">Spotify</h4>
+                        <a href="#" class="btn">Listen</a>
+                    </div>
+                    <div>
+                        <img src="https://picsum.photos/150/150?random=?music,streaming,apple" alt="Apple Music" style="width: 150px; height: 150px; object-fit: contain; margin: 0 auto;">
+                        <h4 style="margin-top: 1rem;">Apple Music</h4>
+                        <a href="#" class="btn">Listen</a>
+                    </div>
+                    <div>
+                        <img src="https://picsum.photos/150/150?random=?music,streaming,youtube" alt="YouTube Music" style="width: 150px; height: 150px; object-fit: contain; margin: 0 auto;">
+                        <h4 style="margin-top: 1rem;">YouTube Music</h4>
+                        <a href="#" class="btn">Listen</a>
+                    </div>
+                    <div>
+                        <img src="https://picsum.photos/150/150?random=?music,streaming,digital" alt="Amazon Music" style="width: 150px; height: 150px; object-fit: contain; margin: 0 auto;">
+                        <h4 style="margin-top: 1rem;">Amazon Music</h4>
+                        <a href="#" class="btn">Listen</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section footer-logo">
+                <div class="footer-logo-container">
+                    <div class="logo">MUSICIAN</div>
+                </div>
+                <p style="margin-top: 1rem; color: #ccc;">Creating music that moves the soul</p>
+            </div>
+            <div class="footer-section">
+                <h3>About</h3>
+                <p>Dedicated to creating music that moves the soul and inspires the heart. Join us on this musical journey.</p>
+                <p style="margin-top: 1rem; color: #999; font-size: 0.875rem;">© 2025 All Rights Reserved</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="music.html">Music</a>
+                <a href="videos.html">Videos</a>
+                <a href="events.html">Events</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-section">
+                <h3>Connect</h3>
+                <p>Follow us on social media for the latest updates, releases, and exclusive content.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook" title="Facebook">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="Twitter" title="Twitter/X">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="Instagram" title="Instagram">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="YouTube" title="YouTube">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-bottom-content">
+                <button class="dark-mode-toggle" id="darkModeToggle" aria-label="Toggle Dark Mode" title="Toggle Dark Mode">
+                    <span class="toggle-icon">🌙</span>
+                    <span class="toggle-text">Dark Mode</span>
+                </button>
+                <p>&copy; 2025 Musician Website. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
+
